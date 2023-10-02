@@ -1,0 +1,220 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+
+}
+body{
+    background-color: #2C3333;
+
+}
+.geral{
+    width: 200px;
+    height: 150px;
+    background-color: #395B64;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #CBE4DE;
+    padding: 5px;
+}
+
+#imagens{
+    width: 900px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+}
+.content{
+    width: 900px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header{
+    text-align: center;
+    width: 100%;
+ 
+}
+.btn{
+    margin: 5px;
+    margin-bottom: 20px;
+    background-color: #2E4F4F;
+    color: #fff;
+    border: 1px solid #CBE4DE;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#topo{
+    align-self:flex-end;
+}
+
+.pokemon-number{
+    font-size: .7rem;
+    align-self: first-baseline;
+    border-radius: 5px;
+    background-color: #2C3333;
+    padding: 3px;
+}
+
+.geral{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.geral img{
+    width: 40%;  
+}
+.tipo-geral{
+    padding: 5px;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    margin: 2px;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+.grass{
+    background-color: #9bcc50;
+
+    
+}
+
+.poison{
+    background-color: #b97fc9;
+
+}
+
+.fire{
+    background-color: #fd7d24;
+}
+
+.flying{
+    background-color: #a890f0;
+}
+
+.water{
+    background-color: #4592c4;
+}
+.bug{
+    background-color: #729f3f;
+}
+.normal{
+    background-color: #a8a878 ;
+}
+.fighting{
+    background-color: #c03028;
+}
+
+.electric{
+    background-color: #f8d030;
+}
+.ground{
+    background-color: #e0c068;
+}
+
+.psychic{
+    background-color: #f366b9;
+}
+
+.rock{
+    background-color: #a38c21;
+}
+
+.ice{
+    background-color: #51c4e7;
+}
+
+.dragon{
+    background-color: #3895c7;
+}
+
+.ghost{
+    background-color: #7b62a3;
+}
+
+.dark{
+    background-color: #707070;
+}
+
+.steel{
+     background-color: #9eb7b8;
+}
+
+.fairy{
+    background-color: #fdb9e9;
+}
+.tipagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.form {
+    color: #ffffff;
+    display: flex;
+    padding: 2px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+  }
+
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+  
+  input[type="search"]::placeholder {
+    color: #bbb;
+  }
+
+  button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  button[type="submit"]:hover {
+    opacity: 1;
+  }
+  button[type="submit"]:focus,
+  input[type="search"]:focus {
+    box-shadow: 0 0 3px 0 #1183d6;
+    border-color: #11d61e;
+    outline: none;
+  }  
+  
+
+  .pesquisar{
+    width: fit-content;
+    min-width: 200px;
+    margin: 20px auto;
+    
+  }
